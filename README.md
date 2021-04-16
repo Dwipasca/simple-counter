@@ -4,9 +4,11 @@
 
 In the project directory, you can run:
 
-### `yarn / yarn install`
+### `yarn / yarn install` (one time)
 
-For the first time you clone this project and install all package project need to run after this you can run "yarn start"
+For the first time you clone this project.\ 
+and then install all package project with this command.\
+after this you can run "yarn start"
 
 ### `yarn start`
 
