@@ -18,11 +18,20 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Counter</h1>
-      <h1>{counter}</h1>
-      <button onClick={handlerSubtractCounter}>-</button>
-      <input type="number" onChange={handlerInputValue} value={inputValue} />
-      <button onClick={handlerAddCounter}>+</button>
+      <h1 data-testid="title">Counter</h1>
+      <h1 data-testid="counter">{counter}</h1>
+      <button onClick={handlerSubtractCounter} data-testid="btn-subtract">
+        -
+      </button>
+      <input
+        type="number"
+        onChange={handlerInputValue}
+        value={inputValue}
+        data-testid="input"
+      />
+      <button onClick={handlerAddCounter} data-testid="btn-add">
+        +
+      </button>
     </div>
   );
 }
