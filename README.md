@@ -6,8 +6,8 @@ In the project directory, you can run:
 
 ### `yarn / yarn install` (one time)
 
-For the first time you clone this project.\ 
-and then install all package project with this command.\
+For the first time you clone this project .\ 
+and then install all package project with this command .\
 after this you can run "yarn start"
 
 ### `yarn start`
